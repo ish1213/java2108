@@ -4,25 +4,25 @@ public class Variable4_Char {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		char myChar = 'A';     //ÀÛÀºµû¿ÈÇ¥·Î ¹­ÀÎ °ÍÀº ¹®ÀÚ
-		String yourStr = "Apple"; //Å«µû¿ÈÇ¥·Î ¹­ÀÎ °ÍÀº ¹®ÀÚ¿­...
+		char myChar = 'A';     // ì‘ì€ë”°ì˜´í‘œë¡œ ë¬¶ì¸ ê²ƒì€ ë¬¸ì
+		String yourStr = "Apple"; // í°ë”°ì˜´í‘œë¡œ ë¬¶ì¸ ê²ƒì€ ë¬¸ìì—´...
 		
-		System.out.println(myChar);// char A¸¦ Ãâ·Â
-		System.out.println(yourStr);// string A¸¦ Ãâ·Â
+		System.out.println(myChar);// char Aë¥¼ ì¶œë ¥
+		System.out.println(yourStr);// string Aë¥¼ ì¶œë ¥
 		
-		//char Å¸ÀÔÀÇ º¯¼ö´Â ascii ·Î Ãâ·ÂÇÒ ¼ö ÀÖ´Ù.
+		// char íƒ€ì… ë³€ìˆ˜ëŠ” ascii ë¡œ ì¶œë ¥í•  ìˆ˜ ìˆë‹¤.
 		System.out.println((int)myChar);  // 65
 		
 		int newChar = 66;
-		//ascii ÄÚµå°ª¿ï ¹ÃÀÚ·Î Ãâ·ÂÇÒ ¼ö ÀÖ´Ù.
+		// ascii ì½”ë“œê°’ì„ ë¬¸ìë¡œ ì¶œë ¥í•  ìˆ˜ ìˆë‹¤.
 		System.out.println((char)newChar); // B
 		
-		// ¿µ¾î¾ËÆÄºª A ~ Z±îÁö¸¦ ¾Æ½ºÅ°ÄÚµå¸¦ ÀÌ¿ë Ãâ·Â
+		// ì˜ì–´ì•ŒíŒŒë²³ A ~ Zê¹Œì§€ë¥¼ ì•„ìŠ¤í‚¤ì½”ë“œë¥¼ ì´ìš© ì¶œë ¥
 		for(int ch = 65; ch < 91;ch++) {
 			System.out.println((char)ch);
 		}
 		
-		char ch1 = 'ÇÑ';
+		char ch1 = 'í•œ';
 	    char ch2 = '\uD55C';
 	    
 	    System.out.println(ch1);

@@ -4,9 +4,9 @@ public class Variable6_boolean {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		boolean ismarried = false;
+		boolean isMarried = false;
 		
-		System.out.println(ismarried);
+		System.out.println(isMarried);
 
 	}
 

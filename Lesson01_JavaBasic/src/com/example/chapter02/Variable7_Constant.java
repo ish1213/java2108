@@ -4,19 +4,20 @@ public class Variable7_Constant {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		//constant »ó¼ö ¼±¾ğ
+		// constant ìƒìˆ˜ ì„ ì–¸
 		final double PI = 3.141592;
 		
 		char myChar = 'A';
-		// ¸í½ÃÀû Çüº¯È¯
+		// explicit type conversion ëª…ì‹œì  í˜•ë³€í™˜
 		System.out.println((int)myChar);
 	    
-		// ¹¬½ÃÀû Çüº¯È¯
+		// implicit type conversion ë¬µì‹œì  í˜•ë³€í™˜
 		int num1=5, num2=3;
 		double num3;
-		num3 = num1 / 3.0; // num1Àº ½Ç¼ö·Î Â†º¯È¯ÀÌ µÇ¾î¼­ »ç¿ëµÈ´Ù.
+		num3 = num1 / 3.0; // num1ì€ ì‹¤ìˆ˜ë¡œ í˜•ë³€í™˜ì´ ë˜ì–´ì„œ ì‚¬ìš©ëœë‹¤.
 		System.out.println(num3);
-		// µ¥ÀÌÅÍÅ¸ÀÔÀÌ È¥ÇÕµÇ¾î ¿¬»ê¿¡ »ç¿ëµÇ¸é, ¹üÀ§°¡ Á»´õ Å«ÂÊÀ¸·Î °£ÁÖµÈ´Ù.
+		// ë°ì´í„°íƒ€ì…ì´ í˜¼í•©ë˜ì–´ ì—°ì‚°ì— ì‚¬ìš©ë˜ë©´, ë²”ìœ„ê°€ ì¢€ë” í°ìª½ìœ¼ë¡œ ê°„ì£¼ëœë‹¤.
+		
 		
 		
 
