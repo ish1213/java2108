@@ -1,16 +1,16 @@
 package com.example.chapter02;
 
-public class Variable3integer {
+public class Variable3Integer {
 // Variable3integer
 	public static void main(String[] args) {
-		// byte Å¸ÀÔÀÇ Ç¥Çö ¹üÀ§ -128 ~ 127
+		// byte íƒ€ì…ì˜ í‘œí˜„ ë²”ìœ„ -128 ~ 127
 		byte byte1 = -128;
 		byte byte2 = 127;
 		
 		System.out.println(byte1);
 		System.out.println(byte2);
 		
-		// long ÇüÀÇ º¯¼ö ¼±¾ğ, °ª µÚ¿¡ L, lÀ» ºÙ¿©ÁØ´Ù.
+		// long í˜•ì˜ ë³€ìˆ˜ ì„ ì–¸, ê°’ ë’¤ì— L lì„ ë¶™ì—¬ì¤€ë‹¤. 
 //		int num1 = 12345678900;
 		long num2 = 12345678900L;
 
