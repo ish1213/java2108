@@ -29,7 +29,11 @@ public class Student {
 	
 	// 학생의 현재 지갑상태 확인
 	public void showInfo() {
-		System.out.println(studentName + "님의 현재 잔액 :" + money + "입니다.");
+		System.out.println(studentName + "님의 현재 잔액 : " + money);
+	}
+	
+	public void showClassmoney() {
+		System.out.println(studentName + "님 학급의 학급비 현재 잔액 : " + classmoney);
 	}
 	
 

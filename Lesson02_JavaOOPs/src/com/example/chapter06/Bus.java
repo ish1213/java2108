@@ -18,8 +18,9 @@ public class Bus {
 		passengerCount--;
 	}
 	
-	public void showinfo() {
-		System.out.println("버스" + busNumber + "번의승객은" + passengerCount + "명이고, 수입은 " + money + "입니다.");
+	public void showInfo() {
+		System.out.println(busNumber + "번 버스 현재 승객: " 
+	           + passengerCount + ", 현재 잔액 : " + money);
 	}
 
 }

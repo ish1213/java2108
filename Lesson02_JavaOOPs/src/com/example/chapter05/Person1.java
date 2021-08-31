@@ -1,11 +1,11 @@
 package com.example.chapter05;
 
 public class Person1 {
-	// member property
-	String name; // ÀÌ¸§
-	int height; // Å°
-	double weight; // ¸ö¹«°Ô
-	char gender; // ¼ºº°
-	boolean married; // °áÈ¥ ¿©ºÎ
+	//member property
+	String name;  // ì´ë¦„
+	int height; // í‚¤
+	double weight; // ëª¸ë¬´ê²Œ
+	char gender; // ì„±ë³„
+	boolean married; // ê²°í˜¼ì—¬ë¶€
 
 }
