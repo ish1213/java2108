@@ -3,22 +3,21 @@ package com.example.chapter02;
 public class Variable1 {
 
 	public static void main(String[] args) {
-		// ì—¬ê¸°ë¶€í„° ì½”ë”© ì‹œì‘
-		// ë³€ìˆ˜ë€? ë°ì´í„°ë¥¼ ë³´ê´€í•˜ëŠ” ê¸°ì–µì¥ì†Œ(ì˜ ì´ë¦„)
-		// ë³€ìˆ˜ ì„ ì–¸ êµ¬ë¬¸
-		// íƒ€ì… ë³€ìˆ˜ëª…;
-        int level; // int - ì •ìˆ˜í˜•   level - ë³€ìˆ˜ëª…
-        int age;
-        // = ëŒ€ì…ì—°ì‚°ì assignment operator
-        // ë³€ìˆ˜ levelì— ì •ìˆ˜í˜• ìˆ«ì ê°’ 10ì„ ëŒ€ì…í•˜ì—¬ë¼(ë³´ê´€í•˜ì—¬ë¼)
-        level = 10;
-        age = 25;
-        
-        // Systemí´ë˜ìŠ¤ì˜ outì˜ printlní•¨ìˆ˜ë¥¼ ì´ìš©í•˜ì—¬ levelì„ ì¶œë ¥í•˜ì—¬ë¼.
+		// ¿©±âºÎÅÍ ÄÚµù ½ÃÀÛ
+		// º¯¼ö¶õ? µ¥ÀÌÅÍ¸¦ º¸°üÇÏ´Â ±â¾ïÀå¼Ò(ÀÇ ÀÌ¸§)
+		// º¯¼ö ¼±¾ğ ±¸¹®
+		// Å¸ÀÔ º¯¼ö¸í;
+		int level;  // int - Á¤¼öÇü   level - º¯¼ö¸í
+		int age;
+		// = ´ëÀÔ¿¬»êÀÚ assignment operator
+		// º¯¼ö level¿¡ Á¤¼öÇü ¼ıÀÚ °ª 10À» ´ëÀÔÇÏ¿©¶ó(º¸°üÇÏ¿©¶ó) 
+		level = 10;
+		age = 25;
+
+		// SystemÅ¬·¡½ºÀÇ outÀÇ printlnÇÔ¼ö¸¦ ÀÌ¿ëÇÏ¿© levelÀ» Ãâ·ÂÇÏ¿©¶ó. 
 		System.out.println(level);
 		System.out.println(age);
-		
-	} // end of main()
-	
 
-} // end of class Variable1
+	}// end of main()
+
+}// end of class Variable1

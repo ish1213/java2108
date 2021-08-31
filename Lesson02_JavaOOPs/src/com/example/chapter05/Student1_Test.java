@@ -18,7 +18,10 @@ public class Student1_Test {
 		System.out.println(hong.getStudentID());
 		hong.showStudentInfo();
 		
+		
 		System.out.println("================");
+		Student1 park = new Student1(2021, "¹Ú¹®¼ö", 1, "Ã»ÁÖ½Ã Èï´ö±¸");
+		park.showStudentInfo();
 		
 //		Student1 lim = new Student1();
 //		lim.studentName = "ÀÓ¼ÒÈñ";

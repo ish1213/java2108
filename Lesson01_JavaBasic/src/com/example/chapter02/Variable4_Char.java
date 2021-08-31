@@ -4,20 +4,20 @@ public class Variable4_Char {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		char myChar = 'A';     // 작은따옴표로 묶인 것은 문자
-		String yourStr = "Apple"; // 큰따옴표로 묶인 것은 문자열...
+		char myChar = 'A';     // �옉���뵲�샂�몴濡� 臾띠씤 寃껋� 臾몄옄
+		String yourStr = "Apple"; // �겙�뵲�샂�몴濡� 臾띠씤 寃껋� 臾몄옄�뿴...
 		
-		System.out.println(myChar);// char A를 출력
-		System.out.println(yourStr);// string A를 출력
+		System.out.println(myChar);// char A瑜� 異쒕젰
+		System.out.println(yourStr);// string A瑜� 異쒕젰
 		
-		// char 타입 변수는 ascii 로 출력할 수 있다.
+		// char ���엯 蹂��닔�뒗 ascii 濡� 異쒕젰�븷 �닔 �엳�떎.
 		System.out.println((int)myChar);  // 65
 		
 		int newChar = 66;
-		// ascii 코드값을 문자로 출력할 수 있다.
+		// ascii 肄붾뱶媛믪쓣 臾몄옄濡� 異쒕젰�븷 �닔 �엳�떎.
 		System.out.println((char)newChar); // B
 		
-		// 영어알파벳 A ~ Z까지를 아스키코드를 이용 출력
+		// �쁺�뼱�븣�뙆踰� A ~ Z源뚯�瑜� �븘�뒪�궎肄붾뱶瑜� �씠�슜 異쒕젰
 		for(int ch = 65; ch < 91;ch++) {
 			System.out.println((char)ch);
 		}
