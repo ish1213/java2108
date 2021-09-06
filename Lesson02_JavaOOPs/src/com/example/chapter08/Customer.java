@@ -12,6 +12,11 @@ public class Customer {
 		bonusRatio = 0.01;
 	}
 	
+	public Customer(int customerID, String customerName) {
+		this.customerID = customerID;
+		this.customerName = customerName;
+	}
+	
 	
 	
 	public int getCustomerID() {
@@ -80,7 +85,7 @@ public class Customer {
 	}
 	
 	public String showCustomerInfo() {
-		return customerName + "님 등급 : " + customerGrade + " 등급이며, 보너스 포인트는 " + bonusPoint + " 입니다.";
+		return customerName + "님 등급 : " + customerGrade + ", 보너스 포인트는 : " + bonusPoint;
 	}
 	
 

@@ -11,7 +11,7 @@ public class VIPCustomer extends Customer {
 		saleRatio = 0.1;
 	}
 	
-	public int calcprice(int price) {
+	public int calcPrice(int price) {
 		bonusPoint += price * bonusRatio;
 		return price - (int)(price * saleRatio);
 	}
@@ -21,7 +21,7 @@ public class VIPCustomer extends Customer {
 	}
 	
 	public String showCustomerInfo() {
-		return customerName + "님 등급 : " + customerGrade + " 등급이며, 보너스 포인트는 " + bonusPoint + " 입니다.";
+		return customerName + "님 등급 : " + customerGrade + ", 보너스 포인트는 " + bonusPoint;
 	}
 
 }

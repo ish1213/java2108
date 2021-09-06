@@ -16,11 +16,17 @@ public class KoreaMart {
 		customerPark.setBonusPoint(1000);
 		System.out.println(customerPark.showCustomerInfo());
 		
-		System.out.println(customerLee.calcPrice(10000));
-		System.out.println(customerPark.calcPrice(10000));
+		Customer customerHong = new GoldCustomer(3001, "홍길동");
+		customerHong.setBonusPoint(1000);
+		System.out.println(customerHong.showCustomerInfo());
+		
+		System.out.println("정산액은 " + customerLee.calcPrice(10000));
+		System.out.println("정산액은 " + customerPark.calcPrice(10000));
+		System.out.println("정산액은 " + customerHong.calcPrice(10000));
 		
 		System.out.println(customerLee.showCustomerInfo());
 		System.out.println(customerPark.showCustomerInfo());
+		System.out.println(customerHong.showCustomerInfo());
 		
 
 	}
